@@ -1,0 +1,8 @@
+servers:
+  mq:
+    host: 127.0.0.1
+    port: 1414
+    queue-manager: QM1
+    channel: DEV.APP.SRVCONN
+    queue: DEV.QUEUE.1
+    timeout: 2000
