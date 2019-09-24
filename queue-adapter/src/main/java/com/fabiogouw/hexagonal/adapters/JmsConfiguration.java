@@ -36,6 +36,6 @@ public class JmsConfiguration {
         SimpleMessageConverter c = new SimpleMessageConverter();
         converter.setTargetType(MessageType.TEXT);
         converter.setTypeIdPropertyName("_type");
-        return c;
+        return converter;
     }
 }
